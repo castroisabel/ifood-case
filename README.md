@@ -24,6 +24,7 @@ ifood-case/
 
 - Python 3.10+
 - pip
+- PySpark
 
 ### Installation
 
@@ -59,6 +60,18 @@ jupyter notebook
 
 - Place raw data files in `data/raw/`
 - Processed data will be saved to `data/processed/`
+
+## Features & Highlights
+
+- Development of a propensity model to predict the probability of offer success.
+
+- Generation of user-offer combinations and ranking based on predicted success.
+
+- Model evaluation using metrics such as ROC AUC, precision, recall, and F1-score.
+
+- Feature importance analysis with permutation importance.
+
+- Recommendations for next steps including threshold optimization, uplift modeling, and ROI tracking.
 
 ## License
 
